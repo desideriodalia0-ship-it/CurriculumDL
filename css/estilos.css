@@ -1,0 +1,190 @@
+/*estilos generales*/
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #f6f6fa;
+    color: #263445;
+    margin: 0;
+    padding: 0;
+}
+
+/*estilos del encabezado*/
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #51bdbd ;
+}
+
+/*Imagen de perfil*/
+.perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+
+}
+
+/* Informacion personal */
+
+.datos-personales {
+    text-align: center;
+}
+
+.datos-personales h1 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+.datos-personales p {
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    color: #dce9f8;
+}
+/* menu de navegacion */
+nav {
+    background-color: #51bdbd;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px ;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ;
+}
+
+/*Efecto al pasar el mouse por encima*/
+nav a:hover {
+    background-color: #3b82c4;;
+}
+
+/*estilos de encabezados*/
+h2{
+    color: #164b80;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+/* estilos para tablas */
+table  {
+    width: 90%;
+    text-align: center;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 5px rgba(7, 6, 6, 0.986);
+}
+
+th{
+    background-color: #51bdbd;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-size: 15px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/*colores alternos para las filas de la tabla*/
+tr:nth-child(even) {
+    background-color: #eaf2fa;
+}
+
+/*efecto al pasar el mouse por encima de las filas de la tabla*/
+tr:hover td {
+    background-color: #dce9f8;
+}
+
+/*Estilos para el formulario de contacto*/
+form {
+    background-color: white;
+    width: 450px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 10px 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #00000015;
+    box-sizing: border-box;
+}
+
+/*Etiquetas del formulario*/
+/*etiquetas del formulario*/
+form label {
+    display: block;
+    color: #164b80;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: #f6f6fa;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: #f6f6fa;
+    resize: vertical;
+
+}
+
+button{
+    display: block;
+    width: 100%;
+    background-color: #51bdbd;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #3b82c4;
+}

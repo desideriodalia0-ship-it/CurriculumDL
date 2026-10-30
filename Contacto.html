@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!-- Enlace a tu archivo CSS externo -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- Encabezado unificado -->
+    <header class="encabezado">
+        <img src="img/Sthefa.jpeg" alt="Foto de perfil" class="perfil">
+        <div class="datos-personales">
+            <h1>Ing. Dalia Desiderio La Rosa</h1>
+            <p>Ingeniera en Software</p>
+        </div>
+    </header>
+    
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Habilidades.html" target="_blank">Habilidades</a></li>
+            <li><a href="Experiencia.html">Experiencia</a></li>
+            <li><a href="Estudios.html">Estudios</a></li>
+            <li><a href="Cursos.html">Cursos</a></li>
+            <li><a href="Referencias.html">Referencias</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <h2>Formulario de Contacto</h2>
+     
+    <!-- Formulario listo para recibir los estilos del CSS -->
+    <form action="" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo">
+
+        <label for="fecha">Fecha de contacto:</label>
+        <input type="date" id="fecha" name="fecha">
+
+        <label for="horario">Horario de contacto:</label>
+        <select name="horario" id="horario">
+            <option value="seleccion">Seleccione una opción</option>
+            <option value="mañana">Mañana</option>
+            <option value="tarde">Tarde</option>
+            <option value="noche">Noche</option>
+        </select>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+            <br><br>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </form>
+
+</body>
+</html>
